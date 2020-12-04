@@ -104,3 +104,12 @@ theme: landscape
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+theme: landscape
+
+deploy:
+
+  type: git
+
+  repository: git@github.com:yingjishipin/youkeda.git
+
+  branch: master
